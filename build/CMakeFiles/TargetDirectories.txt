@@ -1,1 +1,0 @@
-/home/rabadi/programming/mocap/hand-tracker/build/CMakeFiles/HandTracker.dir
