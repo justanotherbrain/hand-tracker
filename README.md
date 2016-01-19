@@ -5,8 +5,7 @@ A simple hand-tracker made with opencv
 opencv 3.0
 
 ## To compile
-'''
-mkdir build && cd build
-cmake ..
-make
-'''
+    mkdir build && cd build
+    cmake ..
+    make
+
