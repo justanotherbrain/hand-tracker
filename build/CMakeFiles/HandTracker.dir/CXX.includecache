@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rabadi/programming/mocap/hand-tracker/HandTracker.cpp
+opencv2/opencv.hpp
+-
+opencv2/videoio.hpp
+-
+iostream
+-
+string
+-
+ProcessImage.h
+/home/rabadi/programming/mocap/hand-tracker/ProcessImage.h
+
+/home/rabadi/programming/mocap/hand-tracker/ProcessImage.cpp
+ProcessImage.h
+/home/rabadi/programming/mocap/hand-tracker/ProcessImage.h
+
+/home/rabadi/programming/mocap/hand-tracker/ProcessImage.h
+iostream
+-
+vector
+-
+opencv2/opencv.hpp
+/home/rabadi/programming/mocap/hand-tracker/opencv2/opencv.hpp
+

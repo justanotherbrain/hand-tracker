@@ -1,0 +1,13 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8 )
+PROJECT( HandTracker)
+FIND_PACKAGE( OpenCV REQUIRED )
+
+SET(SRC
+    HandTracker.cpp
+    ProcessImage.cpp
+    )
+
+ADD_EXECUTABLE( ${PROJECT_NAME} ${SRC} )
+TARGET_LINK_LIBRARIES( ${PROJECT_NAME} ${OpenCV_LIBS} )
+
+
