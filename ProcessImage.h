@@ -6,3 +6,6 @@ using namespace cv;
 using namespace std;
 
 void ProcessImage( Mat src, Mat dst );
+//void RemovePepperNoise( Mat &mask );
+
+

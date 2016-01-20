@@ -1,10 +1,12 @@
 CMAKE_MINIMUM_REQUIRED( VERSION 2.8 )
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
 PROJECT( HandTracker)
 FIND_PACKAGE( OpenCV REQUIRED )
 
 SET(SRC
-    HandTracker.cpp
+    Main.cpp
     ProcessImage.cpp
+    Gui.cpp
     )
 
 ADD_EXECUTABLE( ${PROJECT_NAME} ${SRC} )
